@@ -1,0 +1,17 @@
+potential nep.txt
+
+
+time_step 0.5
+
+velocity 300
+
+ensemble nvt_bdp 300 300 100
+
+dump_exyz 50 1 1 
+
+plumed plumed.dat 50 0
+dump_position 100
+
+dump_thermo 100
+
+run 20000
