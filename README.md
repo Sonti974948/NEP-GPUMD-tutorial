@@ -15,4 +15,6 @@ Please follows these links to learn more about [NEP/GPUMD](https://gpumd.org/) a
   read=read('model.xyz',index=':')
   write=write('initial_traj.pdb',read) 
   ````
-
+4. Make sure that you have your own ````plumed.dat``` (for PLUMED) and ````run.in```` (for GPUMD) files. Example scripts already provided for reference in this repo.
+5. Edit the command in ````run_GPUMD.sh```` to ````'Path to your GPUMD folder'/src/gpumd````. This calls the ````gpumd```` excecutable that you installed.
+6. Run ````sbatch run_GPUMD.sh```` to run your very own GPUMD based metadynamics simulation. 
