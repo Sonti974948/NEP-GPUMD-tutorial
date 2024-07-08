@@ -10,7 +10,7 @@ if __name__ == "__main__":
 
     xyz_file_str = "train_data.xyz"
 
-    ratio_of_training = 1 - 0.000023
+    ratio_of_training = 1 - 0.05
 
     # Fix seed for replication
     random.seed(811) # four seeds: 0 / 324 / 512 / 811
