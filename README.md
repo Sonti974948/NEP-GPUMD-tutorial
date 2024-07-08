@@ -7,7 +7,7 @@ Please follows these links to learn more about [NEP/GPUMD](https://gpumd.org/) a
 2. After installing the GPUMD software, Edit the command in ````run_NEP.sh```` to ````'Path to your GPUMD folder'/src/nep````. This calls the ````nep```` excecutable that you installed.
 3. Run ````sbatch run_NEP.sh```` to train your NEP potential.
 ## GPUMD Simulation 
-1. Transfer the ```nep.txt```` file from your NEP training folder to the GPUMD folder (This is your forcefield)
+1. Transfer the ````nep.txt```` file from your NEP training folder to the GPUMD folder (This is your forcefield)
 2. Take an initial trajectory and save it as ````model.xyz```` (This can be easily done through ASE GUI)
 3. Run the following commands to create an ````initial_traj.pdb```` for PLUMED. You can do it easily on the terminal by typing ````python````.
   ````python
