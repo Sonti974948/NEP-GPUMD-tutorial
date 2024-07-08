@@ -10,9 +10,9 @@ Please follows these links to learn more about [NEP/GPUMD](https://gpumd.org/) a
 1. Transfer the ```nep.txt```` file from your NEP training folder to the GPUMD folder (This is your forcefield)
 2. Take an initial trajectory and save it as ````model.xyz```` (This can be easily done through ASE GUI)
 3. Run the following commands to create an ````initial_traj.pdb```` for PLUMED
-  ````
-  from ase.io import read,write \
-  read=read('model.xyz',index=':') \
+  ````python
+  from ase.io import read,write 
+  read=read('model.xyz',index=':')
   write=write('initial_traj.pdb',read) 
   ````
 
